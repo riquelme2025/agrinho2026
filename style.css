@@ -1,4 +1,3 @@
-/* Configurações Gerais de Layout */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -8,7 +7,26 @@ body {
     color: #333;
 }
 
-header, footer {
+header {
+    background-color: #004d40;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espaço entre o emoji e o texto */
+}
+
+.logo-app {
+    font-size: 2rem; /* Tamanho do emoji */
+}
+
+header h1 {
+    color: white; /* Nome do app em branco */
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+footer {
     background-color: #004d40;
     color: white;
     text-align: center;
@@ -24,7 +42,8 @@ section {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-h1, h2, h3 {
+/* Mantém os títulos das seções em verde escuro */
+h2, h3 {
     color: #004d40;
 }
 
@@ -37,13 +56,11 @@ img {
     border-radius: 4px;
 }
 
-/* Classe específica da imagem que será alterada */
+/* Classe específica da imagem de pixel art */
 .imagem-introducao {
-    width: 350px;       /* Define o tamanho horizontal desejado */
-    height: 350px;      /* Mantém a proporção 1:1 quadrada do seu pixel art */
-    object-fit: cover;  /* Garante o preenchimento correto do espaço */
-    
-    /* Propriedades para manter os pixels nítidos (sem desfoque) */
+    width: 350px;       
+    height: 350px;      
+    object-fit: cover;  
     image-rendering: pixelated;
     image-rendering: crisp-edges;
 }

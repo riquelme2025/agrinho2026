@@ -7,8 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Verifica se a imagem realmente existe na página antes de alterá-la
     if (imagemIntroducao) {
         
-        // Substitui o caminho do arquivo para o seu novo arquivo de pixel art
-        imagemIntroducao.src = 'img/New Piskel-1.png (1).png'; 
+        /* DICA: Renomeie o seu arquivo de imagem na pasta 'img' para: fazendeiro-pixel.png
+           Isso evita que espaços e parênteses quebrem o link no navegador!
+        */
+        imagemIntroducao.src = "img/erwan-hesry-1q75BReKpms-unsplash.jpg"; 
         
         // Atualiza os atributos de acessibilidade (SEO e leitores de tela)
         imagemIntroducao.alt = 'Avatar em pixel art de um fazendeiro sorridente vestindo chapéu de palha e camisa azul';
