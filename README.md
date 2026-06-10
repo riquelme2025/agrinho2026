@@ -1,4 +1,4 @@
-# Projeto Agrinho 2025
+# Projeto Agrinho 2026 - "Agro forte, futuro sustentável."
 # Sobre:
 Site sobre tecnologia no campo.
 # Recursos utilizados:
