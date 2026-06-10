@@ -5,6 +5,7 @@ Site sobre tecnologia no campo.
 -HTML
 
 -CSS
+- JAVASCRIPT
 
 # Links:
 https://agrinho-2025-pi.vercel.app/
